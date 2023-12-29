@@ -3,7 +3,7 @@ def NewNode(key = None, value = None, left = None, right = None):
 
   return node
 
-class Dict:
+class Splay_tree:
   def __init__(self):
     self.len = 0
     self.root = None
